@@ -13,16 +13,16 @@ const Footer = () => {
       <Container>
         <div className="text-white py-32 mt-32">
           {/* section 1 */}
-          <div className="flex justify-between">
+          <div className="flex flex-col gap-8 md:flex-row justify-between">
             {/*  Address */}
             <div>
-              <p className="text-xl w-96">
+              <p className="text-md sm:text-xl max-w-96">
                 44, Big Building Roosevelt Street Beach Gardens Florida 33410
               </p>
             </div>
             {/* Contact */}
             <div className="mr-24 flex flex-col gap-2">
-              <a className="text-xl flex gap-2" href="tel:+8801243667755">
+              <a className="text-md sm:text-xl  flex gap-2" href="tel:+8801243667755">
                 <span>
                   <img src={ImgCall} alt="" />
                 </span>
@@ -31,7 +31,7 @@ const Footer = () => {
 
               <a
                 href="https://www.workwithtariq.com"
-                className="text-xl flex gap-2"
+                className="text-md sm:text-xl  flex gap-2"
               >
                 <span>
                   <img src={ImgWebsite} alt="" />
@@ -60,16 +60,16 @@ const Footer = () => {
 
           <hr className="border-gray-700 my-10" />
           {/* section 3 */}
-          <div className="flex justify-between">
+          <div className="flex flex-col gap-8 md:flex-row justify-between">
             {/*  Address */}
             <div>
-              <p className="text-xl">
+              <p className="text-md sm:text-xl ">
                 All rights reserved, &copy; WorkWithTariq, 2024
               </p>
             </div>
             {/* Contact */}
             <div>
-              <button className="text-xl">Unsubscribe</button>
+              <button className="text-md sm:text-xl ">Unsubscribe</button>
             </div>
           </div>
         </div>

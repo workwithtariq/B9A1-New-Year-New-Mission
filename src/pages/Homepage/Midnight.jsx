@@ -7,15 +7,15 @@ const Midnight = () => {
   return (
     <Container>
       <div
-        className="flex items-center p-24  min-h-[600px] rounded-3xl mt-10"
+        className="flex flex-col flex-col-reverse md:flex-row items-center p-8 sm:p-16 lg:p-24  min-h-[600px] rounded-3xl mt-10 gap-10"
         style={{
           background: `linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(${BackgroundImage}) `,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="w-3/5">
-          <h2 className="text-white text-6xl leading-tight tracking-widest mt-4 font2">
+        <div className="w-full md:w-3/5">
+          <h2 className="text-white text-3xl sm:text-6xl leading-tight tracking-widest mt-4 font2">
             Welcome to midnight party
           </h2>
           <p className="text-xl text-gray-300 tracking-wider mt-8">
@@ -26,7 +26,7 @@ const Midnight = () => {
           <button className="text-white mt-8 text-xl">Join Now</button>
         </div>
 
-        <div className="w-2/5 flex justify-end">
+        <div className="w-full md:w-2/5 flex justify-center md:justify-end">
           <img src={Img2024} alt="" />
         </div>
       </div>

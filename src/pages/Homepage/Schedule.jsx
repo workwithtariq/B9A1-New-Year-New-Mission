@@ -4,9 +4,9 @@ import Container from "../../components/Container";
 const Schedule = () => {
   return (
     <Container>
-      <div className="flex justify-center items-center bg-gradient-to-b from-rose-200 to-white min-h-[482px] rounded-3xl mt-32">
+      <div className="flex justify-center items-center bg-gradient-to-b from-rose-200 to-white min-h-[482px] rounded-3xl mt-32 px-6">
         <div className="text-center">
-          <div className="text-3xl flex flex-col text-[#070211] gap-6 font-bold tracking-wider">
+          <div className="text-2xl sm:text-3xl flex flex-col text-[#070211] gap-6 font-bold tracking-wider">
             <h3>
               <span className="text-[#ff0000]">Place:</span> New Park Hotel
             </h3>

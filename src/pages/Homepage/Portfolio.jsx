@@ -12,11 +12,11 @@ const Portfolio = () => {
     <Container>
       <div>
         {/* Text section */}
-        <div className="mt-32 w-3/4">
+        <div className="mt-32 w-full md:w-3/4">
           <h3 className="font-medium text-2xl text-[#ff0000]">
             THE BEST GIFTS
           </h3>
-          <h2 className="font-bold font2 text-6xl text-[#070211] mt-8">
+          <h2 className="font-bold font2 text-3xl md:text-6xl text-[#070211] mt-8">
             Our Awesome Portfolio
           </h2>
           <p className="text-xl text-gray-600 tracking-wider mt-8">
@@ -26,24 +26,24 @@ const Portfolio = () => {
           </p>
         </div>
         {/* Grid section */}
-        <div className="mt-8 grid grid-cols-3 gap-6">
+        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-6">
           <div>
-            <img src={ImgBag1} alt="" />
+            <img className="w-full" src={ImgBag1} alt="" />
           </div>
           <div>
-            <img src={ImgBag2} alt="" />
+            <img className="w-full" src={ImgBag2} alt="" />
           </div>
           <div>
-            <img src={ImgShoe1} alt="" />
+            <img className="w-full" src={ImgShoe1} alt="" />
           </div>
           <div>
-            <img src={ImgShoe2} alt="" />
+            <img className="w-full" src={ImgShoe2} alt="" />
           </div>
           <div>
-            <img src={ImgGlass} alt="" />
+            <img className="w-full" src={ImgGlass} alt="" />
           </div>
           <div>
-            <img src={ImgBracelet} alt="" />
+            <img className="w-full" src={ImgBracelet} alt="" />
           </div>
         </div>
       </div>
